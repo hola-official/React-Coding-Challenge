@@ -12,6 +12,7 @@ html {
 }
 
 body {
+  /* display: none; */
   min-height: 100vh;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -25,6 +26,7 @@ form {
 
 button {
   cursor: pointer;
+  border: none;
   width: 33.33%;
   padding: 0.5rem;
   font-size: 1rem;
@@ -32,8 +34,8 @@ button {
 }
 
 button.selected {
-  background-color: #87ceeb;
-  color: #fff;
+  background-color: #82dbfe;
+  /* color: #fff; */
 }
 
 ul {

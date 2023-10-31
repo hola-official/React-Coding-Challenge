@@ -1,10 +1,10 @@
 // import React from 'react'
 
-const Cell = () => {
+const Cell = ({cellData}) => {
   return (
-    <div>
-      
-    </div>
+    <td>
+      {cellData}
+    </td>
   )
 }
 
